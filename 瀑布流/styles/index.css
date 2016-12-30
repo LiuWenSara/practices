@@ -1,0 +1,15 @@
+*{
+	padding:0;
+	margin:0;
+}
+#container{
+	position: relative;
+}
+.box{
+	padding:5px;
+	float:left;
+}
+.box img{
+	width:300px;
+	height:auto;
+}

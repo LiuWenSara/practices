@@ -1,0 +1,42 @@
+body {
+    font-family: 幼圆;
+    text-align: center;
+    color: tan;
+    background-color: gray;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+}
+
+.header {
+    font-size: 3em;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.content .primary {
+    float: right;
+    width: 60%;
+}
+
+.content .secondary {
+    float: left;
+    width: 20%;
+}
+
+a: .content .primary .primary {
+    float: left;
+    width: 30%;
+}
+
+.content .primary .secondary {
+    float: right;
+    width: 30%;
+}
+
+.footer {
+    clear: both;
+}

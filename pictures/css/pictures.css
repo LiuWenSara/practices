@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+    color: gray;
+    font-family: 幼圆;
+    margin: 0px;
+}
+
+.header {
+    border: gray solid 2px;
+    line-height: 75px;
+    margin: 0;
+    text-align: center;
+    border-radius: 4px;
+    background-color: pink;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+table {
+    background-color: pink;
+    font-size: 3em;
+    position: relative;
+    left: 15%;
+    top: 3px;
+    border-color: gray;
+}
+
+.pic td {
+    margin: 5px;
+    padding: 5px 75px;
+}
+
+#placeholder {
+    border: gray dotted 2px;
+    border-width: 100%;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    margin: 10px;
+}

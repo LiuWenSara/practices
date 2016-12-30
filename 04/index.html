@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>首页</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .center {
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -100px -200px;
+        background: #ccc;
+    }
+    
+    #left,
+    #right {
+        border-radius: 50px;
+        border: 50px solid transparent;
+        position: absolute;
+    }
+    
+    #left {
+        top: -50px;
+        left: -50px;
+        transform: rotate(-45deg);
+        border-bottom-color: #fc0;
+    }
+    
+    #right {
+        bottom: -50px;
+        right: -50px;
+        border-top-color: #fc0;
+        transform: rotate(-45deg);
+    }
+    
+    #top {
+        border-radius: 10px;
+        height: 10px;
+        border: 50px solid #ffcc00;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div id="left"></div>
+        <div id="right"></div>
+    </div>
+    <div id="top"></div>
+</body>
+
+</html>

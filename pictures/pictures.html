@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>pictures</title>
+    <meta name="viewport" content="initial-scale=1,width=device-width">
+    <link rel="stylesheet" href="css/pictures.css" media="screen" />
+</head>
+
+<body>
+    <script src="scripts/pictures.js"></script>
+    <h1 class="header">图片浏览</h1>
+    <table class="pic" border="2px" cellspacing="0">
+        <tr>
+            <td>
+                <a href="img/carol1.png" title="漫画一" onclick="showPic(this);return false;">图一</a>
+            </td>
+            <td>
+                <a href="img/carol2.jpg" title="漫画二" onclick="showPic(this);return false;">图二</a>
+            </td>
+            <td>
+                <a href="img/carol3.jpg" title="漫画三" onclick="showPic(this);return false;">图三</a>
+            </td>
+            <td>
+                <a href="img/carol5.jpg" title="漫画四" onclick="showPic(this);return false;">图四</a>
+            </td>
+        </tr>
+    </table>
+    </hr>
+    <img id="placeholder" src="img/carol4.gif" alt="图片占位" />
+    <p id="description">描述</p>
+</body>
+
+</html>

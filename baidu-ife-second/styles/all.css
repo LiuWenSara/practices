@@ -1,0 +1,151 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+body{
+    font-family: 'Microsoft YaHei', 'SimHei', 'STHeiti', sans-serif;
+}
+h1,h3{  
+	font-weight:normal;
+} 
+.small-title{
+    font-size: 16px;
+    margin-left: 100px;
+    font-weight: normal;
+}
+.list{  
+    max-width: 600px;
+    border-bottom: 1px dashed #aaa;
+}
+.list a{
+    display:block;
+    margin: 10px;
+    text-decoration: none;
+    color: #274E70;
+}
+.list a:hover，.other a:hover{
+    color: #5D809E;
+}
+.other{
+    padding: 10px;
+    line-height: 1.5;
+}
+.other a{
+    text-decoration: none;
+    color: #274E70;
+}
+/*输入兴趣和爱好*/
+textarea{
+	max-width:500px;
+}
+.warn{
+	display: none;
+    background-color: #DEE8EF;
+    width: 290px;
+    padding: 5px;
+    color: #B32D2D;
+    font-weight: bold;
+}
+.show { 
+    margin-top: 10px;
+}
+/*轮播图*/
+.imgRatation{
+	width:500px;
+	height:300px;
+	overflow:hidden;
+	position:relative;
+}
+.img-list{
+	position: absolute;
+	width:2500px;
+    font-size: 0;
+}
+.circle{
+	position:absolute;
+	left:200px;
+	bottom:10px;
+}
+.circle a{
+	width:10px;
+	height:10px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius:10px;
+}
+.circle .active{
+	background: #fff;
+    cursor: default;
+}  
+/*输入提示*/
+.input-hint input {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200px;
+    border: 1px solid #888;
+    outline: none;
+    padding: 3px 5px;
+    margin: 0;
+}
+.input-hint ul {
+    display: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.input-hint li {
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+.input-hint li span{
+    color: #A73535;
+}
+
+.input-hint .active {
+    background: #eee;
+}
+/*拖拽*/
+.drag-block{
+    position:relative;
+}
+.block{
+    float: left;
+    width:200px;
+    height:479px;
+    border:1px solid #333;
+}
+.move{
+    width:200px;
+    height:59px;
+    border-bottom:1px solid #333;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    background-color: #929BDD;
+    line-height: 59px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: move;
+}
+.right-block{
+    margin-left: 300px;
+}
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.

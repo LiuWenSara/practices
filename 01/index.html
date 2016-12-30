@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>01</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <th>表头</th>
+            <th>表头</th>
+            <th>表头</th>
+        </tr>
+        <tr>
+            <td>表内容</td>
+            <td>表内容</td>
+            <td>操作</td>
+        </tr>
+        <tr>
+            <td>表内容</td>
+            <td>表内容</td>
+            <td>操作</td>
+        </tr>
+        <tr>
+            <td>表内容</td>
+            <td>表内容</td>
+            <td>操作</td>
+        </tr>
+        <tr>
+            <td>总计</td>
+            <td colspan="2">1000</td>
+        </tr>
+    </table>
+    <form acton="" method="post">
+        <p>请输入邮箱地址：
+            <input type="email" minlength="6" maxlength="16" pattern=[A-Za-z0-9] placeholder="邮件地址" />
+        </p>
+        <p>请输入密码：
+            <input type="password" minlegth="6" maxlength="16" pattern=[a-z0-9] placeholder="密码输入" />
+        </p>
+        <p> 性别：
+            <input type="radio" name="sex" id="man" checked="checked" />
+            <lable for="man">男</lable>
+            <input type="radio" name="sex" id="woman" />
+            <lable for="woman">女</lable>
+        </p>
+        <p>
+            城市：
+            <select>
+                <option value="xa">西安</option>
+                <option value="gz">广州</option>
+                <option value="sz">深圳</option>
+            </select>
+        </p>
+        <p>
+            爱好：
+            <input type="checkbox" checked="checked" value="sing" />
+            <label>唱歌</label>
+            <input type="checkbox" value="dance" />
+            <label>跳舞</label>
+            <input type="checkbox" checked="checked" value="code" />
+            <label>代码</label>
+            <textarea placeholder="这是一个输入框，请输入内容"></textarea>
+            <button type="submit">点击提交</button>
+        </p>
+    </form>
+    <footer>
+        版权所有&copy
+    </footer>
+</body>
+
+</html>
